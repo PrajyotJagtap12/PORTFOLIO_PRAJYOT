@@ -15,6 +15,10 @@ export interface IProject {
     name: string;
     shortDescription: string;
     description: string;
+    demoCredentials?: {
+        email?: string;
+        password?: string;
+    };
     logoImage: ImageMetadata;
     previewImage: ImageMetadata;
     deviceMockupImage: ImageMetadata;
