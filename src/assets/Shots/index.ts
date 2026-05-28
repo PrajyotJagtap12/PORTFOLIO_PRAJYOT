@@ -11,9 +11,11 @@ import SrinivasShots from "./Srinivas.webp"
 import YoatubeShots from "./Yoatube.webp"
 import XreconShots from "./Xrecon.webp"
 import Armsv2Shots from "./ARMSv2.webp"
-import NextmartShots from "./NextMart.webp"
+import NextmartShots from "./NextMart_final.png"
 import VortexaShots from "./Vortexa.webp"
 import Armsv3Shots from "./ARMSv3.webp"
+import TenthFloorShots from "./TenthFloor.jpg"
+import SableShots from "./SableShots.png"
 
 export default {
     KalciShots,
@@ -31,5 +33,7 @@ export default {
     Armsv2Shots,
     NextmartShots,
     VortexaShots,
+    TenthFloorShots,
+    SableShots,
     Armsv3Shots,
 };

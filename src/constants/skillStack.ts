@@ -106,24 +106,18 @@ export const FrontendLibrariesStack = [
         link: "https://preactjs.com/",
     },
     {
-        name: "D3.js",
-        description: "Versatile JavaScript library for data visualization, enabling dynamic, interactive graphics and charts by binding data to DOM elements.",
-        icon: SKILLS.D3JsIcon,
-        link: "https://d3js.org/",
+        name: "Angular",
+        description: "Platform and framework for building single-page client applications using HTML and TypeScript.",
+        icon: SKILLS.AngularIcon,
+        link: "https://angular.io/",
     },
     {
-        name: "GSAP",
-        description: "Robust JavaScript animation library for performant, timeline-based animations on the web.",
-        icon: SKILLS.GSAPIcon,
-        link: "https://gsap.com/",
+        name: "Flutter",
+        description: "UI toolkit from Google for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+        icon: SKILLS.FlutterIcon,
+        link: "https://flutter.dev/",
     },
-    {
-        name: "Framer Motion",
-        description: "Animation library for React that provides declarative, production-ready motion and transitions.",
-        icon: SKILLS.MotionIcon,
-        link: "https://www.framer.com/motion/",
-    },
-] as const;
+ ] as const;
 // #endregion
 
 // #region State & Events
@@ -192,6 +186,12 @@ export const BackendApisStack = [
         description: "Developer platform for building web, desktop, mobile, and cloud applications using C# and other languages.",
         icon: SKILLS.DotnetIcon,
         link: "https://learn.microsoft.com/en-us/dotnet/",
+    },
+    {
+        name: "Spring Boot",
+        description: "Spring Boot — opinionated framework for building production-ready applications in Java with minimal configuration.",
+        icon: SKILLS.SpringIcon,
+        link: "https://spring.io/projects/spring-boot",
     },
     {
         name: "REST API",

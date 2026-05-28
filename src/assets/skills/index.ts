@@ -19,6 +19,8 @@ import TailwindIcon from "./tailwind.svg";
 import D3JsIcon from "./d3js.svg";
 import GSAPIcon from "./gsap.svg";
 import MotionIcon from "./motion.svg";
+import AngularIcon from "./angular.png";
+import FlutterIcon from "./flutter-logo.jpg";
 
 // State & Events
 import ReduxIcon from "./redux.svg";
@@ -34,6 +36,7 @@ import ExpressIcon from "./express.svg";
 import FastApiIcon from "./fastapi.svg";
 import DotnetIcon from "./dotnet.svg";
 import RestApiIcon from "./restapi.svg";
+import SpringIcon from "./spring.svg";
 
 // Databases, Caching & ORM
 import MongoIcon from "./mongodb.svg";
@@ -99,6 +102,8 @@ export default {
     D3JsIcon,
     GSAPIcon,
     MotionIcon,
+    AngularIcon,
+    FlutterIcon,
 
     // State & Events
     ReduxIcon,
@@ -113,6 +118,7 @@ export default {
     ExpressIcon,
     FastApiIcon,
     DotnetIcon,
+    SpringIcon,
     RestApiIcon,
 
     // Databases, Caching & ORM

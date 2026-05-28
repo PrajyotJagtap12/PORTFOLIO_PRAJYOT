@@ -34,25 +34,19 @@ if (project.status === "development") {
 ---
 
 <div
-    class={`Project_Stagger Card_Main w-full md:h-[525px] flex flex-col bg-footerAltLite/80 overflow-hidden mt-3 opacity-0 rounded-xl ${className}`}
+    class={`Project_Stagger Card_Main w-full md:h-[525px] flex flex-col bg-footerAltLite/80 overflow-hidden mt-3 opacity-100 rounded-xl ${className}`}
+    
+    aria-hidden="false"
 >
     <a
         href={`/projects/${project?.name.replaceAll(" ", "-").toLowerCase()}`}
-        class="Projects_Preview relative w-full p-1"
+        class="Projects_Preview relative w-full p-1 aspect-[16/10] overflow-hidden"
     >
         <Image
-            class="Card_Image bg-cover opacity-100 transition-opacity w-full rounded-lg"
+            class="Card_Image bg-cover opacity-100 transition-opacity w-full h-full rounded-lg object-cover object-center"
             src={project.previewImage}
             alt={`Project_ScreenShot_${project.name}`}
-            widths={[346, project.previewImage.width]}
-            sizes={`(max-width: 720px) 346px, ${project.previewImage.width}px`}
-            loading="lazy"
         />
-
-        <div
-            class="absolute inset-1 bg-foreground dark:bg-background rounded-lg transition-opacity opacity-10 hover:opacity-0"
-        >
-        </div>
     </a>
 
     <div
@@ -133,7 +127,12 @@ if (project.status === "development") {
         </div>
 
         <div class="flex flex-1 items-center py-2">
-            <p class="text-center">{project.shortDescription}</p>
+            <div class="text-center space-y-2">
+                <p>{project.shortDescription}</p>
+                <p class="text-sm opacity-80 line-clamp-3 md:line-clamp-2">
+                    {project.description}
+                </p>
+            </div>
         </div>
 
         <!-- Technologies Icons -->
