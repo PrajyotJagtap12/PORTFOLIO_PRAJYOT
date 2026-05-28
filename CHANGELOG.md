@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://github.com/PrajyotJagtap12/PORTFOLIO_PRAJYOT/compare/v1.0.0...v1.0.1) (2026-05-28)
+
+### 🐛 Bug Fixes
+
+* add demoCredentials to project type ([f3c78e4](https://github.com/PrajyotJagtap12/PORTFOLIO_PRAJYOT/commit/f3c78e45a846c73d68890aa4a3177ddf6024ed44))
+
 ## 1.0.0 (2026-05-28)
 
 ### ⚠ BREAKING CHANGES
